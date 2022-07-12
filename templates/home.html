@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+	<link type="text/css" rel="stylesheet" href="/static/styles/vicci.css?u={{ last_updated }}">
+
+	<script src="https://kit.fontawesome.com/5c58e8e06c.js" crossorigin="anonymous"></script>
+	<link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
+	<link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
+
+	<!-- Title needs to be dynamic -->
+	<title>Platform</title>
+</head>
+
+<body class="platform">
+	<section class="video">
+		<!-- General Videos -->
+		<video id="idle" loop>
+			<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+		</video>
+		<video id="num" style="visibility: hidden;">
+			<source src="./assets/vh/welcome.mp4" type="video/mp4">
+		</video>
+		<video id="names" style="visibility: hidden;">
+			<source src="./assets/vh/name.mp4" type="video/mp4">
+		</video>
+		<video id="dates" style="visibility: hidden;">
+			<source src="./assets/vh/check1.mp4" type="video/mp4">
+		</video>
+		<!-- Booking !! -->
+		<div id="bookings">
+			<video id="adults" style="visibility: hidden;">
+				<source src="./assets/vh/phone.mp4" type="video/mp4">
+			</video>
+			<video id="rooms" style="visibility: hidden;">
+				<source src="./assets/vh/check2.mp4" type="video/mp4">
+			</video>
+			<video id="payment" style="visibility: hidden;">
+				<source src="./assets/vh/bdates.mp4" type="video/mp4">
+			</video>
+			<video id="min" style="visibility: hidden;">
+				<source src="./assets/vh/min.mp4" type="video/mp4">
+			</video>
+			<video id="type" style="visibility: hidden;">
+				<source src="./assets/vh/roomtype.mp4" type="video/mp4">
+			</video>
+		</div>
+		<!-- Banquet hall -->
+		<div id="banquet">
+			<video id="banquets" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+		</div>
+		<!-- Conference room -->
+		<div id="conference">
+			<video id="conferences" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+		</div>
+		<!-- Gym room -->
+		<div id="gym">
+			<video id="gyms" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+		</div> <!-- Spa room -->
+		<div id="spa">
+			<video id="spas" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div id="gallery">
+			<video id="gallerys" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div id="additional">
+			<video id="local" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+			<video id="hidden" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+			<video id="activity" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div id="feedback">
+			<video id="complaint" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+			<video id="refund" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+			<video id="refund_status" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+			<video id="review" loop>
+				<source src="https://orient.s3.ap-south-1.amazonaws.com/vid/idle.mp4" type="video/mp4">
+			</video>
+		</div>
+	</section>
+
+	<section class="content">
+		<div class="container" style="visibility: visible;">
+			<div style="width:100vh;">
+				<div class="user_query">
+					<textarea rows="2" cols="65" id="user_input" placeholder="Write a message"></textarea>
+					<i class="fa fa-paper-plane" aria-hidden="false" id="paper-plane-icon"></i>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="num_content">
+			<h2>Number</h2>
+			<h4>helllo</h4>
+		</div>
+
+		<div class="container" id="name_content">
+			<h2>Name</h2>
+			<h4>helllo</h4>
+		</div>
+
+		<div class="container" id="rooms_content">
+			<h2>rooms</h2>
+			<h4>helllo</h4>
+		</div>
+		<div class="container" id="payment_content">
+			<h2>Payment</h2>
+			<h4>helllo</h4>
+		</div>
+
+		<div id="booking">
+			<div class="container" id="date_content">
+				<h2>date</h2>
+				<h4>helllo</h4>
+			</div>
+			<div class="container" id="adults_content">
+				<h2>adults</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+		<div id="banquet_content">
+			<div class="container" id="banquets_contents">
+				<h2>banquets</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+		<div id="conference_content">
+			<div class="container" id="conferences_contents">
+				<h2>conference</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+		<div id="gym_content">
+			<div class="container" id="gyms_contents">
+				<h2>gym</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+		<div id="spa_content">
+			<div class="container" id="spas_contents">
+				<h2>Spa</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+		<div id="gallery_content">
+			<div class="container" id="gallerys_contents">
+				<h2>gallery</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+		<div id="additional_content">
+			<div class="container" id="local_content">
+				<h2>local</h2>
+				<h4>helllo</h4>
+			</div>
+			<div class="container" id="hidden_content">
+				<h2>hidden places</h2>
+				<h4>helllo</h4>
+			</div>
+			<div class="container" id="activity_content">
+				<h2>activity</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+		<div id="feedback_content">
+			<div class="container" id="complaint_content">
+				<h2>complaint</h2>
+				<h4>helllo</h4>
+			</div>
+			<div class="container" id="refund_content">
+				<h2>refund</h2>
+				<h4>helllo</h4>
+			</div>
+			<div class="container" id="refundstatus_content">
+				<h2>refund status</h2>
+				<h4>helllo</h4>
+			</div>
+			<div class="container" id="review_content">
+				<h2>review</h2>
+				<h4>helllo</h4>
+			</div>
+		</div>
+	</section>
+	<section class="mic">
+		<span class="mic1" id="">
+			<i class="fal fa-microphone fa-2x"> </i>
+		</span>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+		crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="./static/js/jquery-3.6.0.min.js?u={{ last_updated }}">
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<script src="https://kit.fontawesome.com/5c58e8e06c.js" crossorigin="anonymous"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js'></script>
+
+</body>
+
+</html>

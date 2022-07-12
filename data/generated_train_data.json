@@ -1,0 +1,98 @@
+[
+
+    
+  {
+        "intent": "query",
+        "query": [
+            "issue",
+            "problem",
+            "query",
+            "solution",
+            "laptop",
+            "printer",
+            "desktop",
+            "connectivity",
+            "new",
+            "procurement",
+            "need",
+            "trouble",
+            "screen",
+            "keyboard",
+            "mouse",
+            "keypad",
+            "cursor",
+            "wifi",
+            "vpn",
+            "email",
+            "account",
+            "password",
+            "reset",
+            "username",
+            "mail id",
+            "mail",
+            "message" 
+        ],
+        "response": [
+            "query"
+        ]
+    },
+    {
+        "intent": "no",
+        "query": [
+           "no",
+           "nope",
+           "nah",
+           "incorrect",
+           "not at all",
+           "wrong",
+           "nope",
+           "not really",
+           "partially",
+           "kind of",
+           "umm",
+           "oh no"
+        ],
+        "response": [
+            "no"
+        ]
+    },
+    {
+        "intent": "yes",
+        "query": [
+           "yes",
+           "correct",
+           "absolutely",
+           "yeah",
+           "ya",
+           "yas",
+           "fine",
+           "good",
+           "okay",
+           "alright",
+           "ok"
+        ],
+        "response": [
+            "yes"
+        ]
+    },
+    
+    {
+        "intent": "thanks",
+        "query": [
+            "great.!",
+            "that helped",
+            "thanks a lot",
+            "much thanks.!",
+            "thanks a lot",
+            "thanks for the help",
+            "awesome.!",
+            "that's great.!",
+            "that was very helpful",
+            "thank you so much.!",
+            "thanks a lot, that was very good"
+        ],
+        "response": [
+            "thanks"
+        ]
+    }  
+]

@@ -1,0 +1,115 @@
+/* h1 {
+    color: #F65058FF;
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    padding: 10px;
+}
+
+hr {
+    color: #F65058FF;
+}
+
+fieldset {
+    width: 100vh;
+    border-width: 1px;
+    margin: 0px;
+    align-self: center;
+    padding: 0.5%;
+}
+
+#chat_holder {
+    overflow-y:scroll; 
+    height:70vh; 
+    width:100vh;
+}
+
+#msg1 {
+    color: #ccc;
+    font-size: 25px;
+}
+
+#paper-plane-icon{
+    color: #F65058FF;
+    position: absolute;
+    font-size: 25px;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+}
+
+.user_message {
+    padding: 1%;
+    margin-left: 60%;
+    text-align: right;
+    background-color: darkgray;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+}
+
+.user_message span{
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    color: white;
+    font-family: monospace;
+}
+
+.bot_message {
+    padding: 1%;
+    text-align: left;
+    margin-right: 30%;
+    background-color: #F65058FF;
+    border-bottom-right-radius: 3vh;
+    border-top-right-radius: 3vh;
+}
+
+.bot_message span{
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    color: white;
+    font-family: monospace;
+} */
+
+.platform{
+    overflow: hidden;   
+}
+.video video{
+    position: absolute;
+    width: 100% ;
+}
+.content .container{
+    background-color: pink;
+    position: absolute;
+    width: 35%;
+    margin-left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+visibility: hidden;
+}
+.content .container h2{
+    margin: 2%;
+    margin-bottom: 5%;  
+}
+
+.mic{
+    position: absolute;
+    left: 19.5%;
+    top: 90%;
+}
+
+.mic .fal{
+    margin-top: 35px;
+    transform: translateY(-50%);
+}
+.mic .mic1{
+    position: absolute;
+    width: 70px !important;
+    height: 70px !important;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 50%;   
+    transform: translateX(-50%);
+}
+.mic .mic1:hover{
+    cursor: pointer;
+}
